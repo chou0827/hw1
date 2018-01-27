@@ -1,0 +1,18 @@
+Function a {
+if (getcolor == “blue”) {
+down
+right
+right
+} else {
+up
+right
+right
+}
+
+right
+right
+a
+a
+a
+right
+right
