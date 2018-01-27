@@ -1,0 +1,30 @@
+function down1 {
+var steps = 0
+while (steps <8) {
+down
+steps = steps + 1
+}}
+
+function up1 {
+var steps = 0
+while (steps <7){
+Up
+steps = steps +1
+}}
+
+
+down1
+right
+right
+up1
+right
+right
+down1
+right
+right
+up1
+right
+right
+down1
+right
+right
