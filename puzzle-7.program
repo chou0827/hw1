@@ -1,0 +1,26 @@
+function a() {
+while (getColor == “white”) {
+down
+}}
+
+function b(){
+if (getColor == “pink”) {
+right
+right
+}}
+
+function c(){
+while (getColor == “white”) {
+up
+}}
+
+a
+b
+c
+b
+a
+b
+c
+b
+a
+right
