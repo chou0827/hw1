@@ -1,14 +1,11 @@
-right
-if (getColor == "red") {
-up
-up
-up
-}
-if (getColor == "red") {
-left
-up
- } else {
-right 
-up
-}	
-
+right();
+if (getColor() == "red") 
+    up();
+  	up();
+  	up();
+  		if (getColor() == "red") {
+    left();
+  		up();
+      } else  
+        right();
+        up();
