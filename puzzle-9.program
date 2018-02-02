@@ -1,7 +1,41 @@
-function setup() {
-createCanvas();
-
-
-function draw() {
-rect();
+function rDown(total) {
+  var count = 0;
+  while (count < total) {
+    down();
+    count = count + 1;
+    setColor("red");
+  }
 }
+
+function rUp(total) {
+  var count = 0;
+  while (count < total) {
+    up();
+    count = count + 1;
+    setColor("red");
+  }
+}
+
+function rRight(total) {
+  var count = 0;
+  while (count < total) {
+    right();
+    count = count + 1;
+    setColor("red");
+  }
+}
+
+function rLeft(total) {
+  var count = 0;
+  while (count < total) {
+    left();
+    count = count + 1;
+    setColor("red");
+  }
+}
+
+rDown(9);
+rRight(9)
+rUp(9)
+rLeft(9)
+
