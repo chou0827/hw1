@@ -1,18 +1,16 @@
-Function a {
-if (getcolor == “blue”) {
-down
-right
-right
-} else {
-up
-right
-right
+right();
+right();
+function redBlue () {
+	if (getColor() == "blue") {
+    	down();
+	} else {
+  	up();}
+	right();
+	right();
 }
 
-right
-right
-a
-a
-a
-right
 
+redBlue();
+redBlue();
+redBlue();
+right();
